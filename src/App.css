@@ -1,0 +1,107 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--light-color) !important;
+  margin: 0 auto;
+  color: var(--dark-color) !important ;
+  line-height: 1.6;
+  font-family: var(--text) !important;
+  overflow-x: hidden !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600 !important;
+}
+
+
+/* Colors */
+.transparent {
+  background: transparent !important;
+}
+.pry-text {
+  color: var(--pry-color) !important;
+}
+.pry {
+  background-color: var(--pry-color) !important;
+}
+.pry-border {
+  border-color: var(--pry-color) !important;
+}
+.light-text {
+  color: var(--light-color) !important;
+}
+.light-bg {
+  background-color: var(--light-color) !important;
+}
+.light-bold-text {
+  color: var(--light-bold-color) !important;
+}
+.dark-text {
+  color: var(--dark-color) !important;
+}
+.dark-bg {
+  background-color: var(--dark-color) !important;
+}
+.dark-bold-text {
+  color: var(--dark-bold-color) !important;
+}
+.footer-bg {
+  background-color: var(--footer-color) !important;
+}
+.footer-text {
+  color: var(--footer-text-color) !important;
+}
+
+/* Colors */
+
+
+/* Button */
+.btn {
+  text-transform: capitalize !important;
+  border-radius: 3px !important;
+  padding: 10px 30px !important;
+  align-items: center !important;
+}
+
+/* border radius */
+.br-sm {
+  border-radius: 5px !important;
+}
+.br-md {
+  border-radius: 15px !important;
+}
+.br-lg {
+  border-radius: 50% !important;
+}
+.br-xlg {
+  border-radius: 5rem !important;
+}
+/* border radius */
+
+/* Pointer */
+.pointer {
+    cursor: pointer !important;
+}
+/* Pointer */
+
+/* Sizing */
+.fit-content {
+  width: fit-content !important;
+}
+
+.f-700 {
+  /* font-weight: 00 !important; */
+}
+
+/* Sizing */

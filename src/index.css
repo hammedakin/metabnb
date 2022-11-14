@@ -1,0 +1,32 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Red+Rose&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@400&display=swap");
+
+/* CSS Variables */
+:root {
+  --pry-color: #a02279;
+  --pry-bold-color: #a02279;
+  --dark-color: #000000;
+  --dark-bold-color: #434343;
+  --light-color: #ffffff;
+  --light-bold-color: #e2e2e2;
+  --footer-color: #1d1d1e;
+  --footer-text-color: #f1f3f9;
+
+  /* Font */
+  --text: "Red Rose", cursive;
+}
+/* CSS Variables */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
